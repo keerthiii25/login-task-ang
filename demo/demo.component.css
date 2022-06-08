@@ -1,0 +1,15 @@
+h1{
+    color: coral;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+form{
+    color: rgb(117, 14, 201);
+    text-transform: uppercase;
+    text-align: center; 
+    border-style:double;
+    border-color: black;
+    
+}

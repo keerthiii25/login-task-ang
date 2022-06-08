@@ -1,0 +1,18 @@
+<mat-toolbar class="a">
+    <button (click)="seen()" mat-icon-button class="example-icon"  aria-label="Example icon-button with menu icon">
+     
+      <mat-icon >menu</mat-icon>
+      
+    </button>
+    
+    <span>welcome!!</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button  class="example-icon" >
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+  
+<app-menu *ngIf="show"></app-menu>

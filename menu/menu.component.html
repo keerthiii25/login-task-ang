@@ -1,0 +1,14 @@
+<mat-drawer-container class="a">
+    <mat-drawer class="b" mode="side" opened>
+        <mat-list role="list">
+            <a  (click)="toogle()" mat-list-item  role="listitem"><mat-icon>assignment_turned_in</mat-icon>attenance</a><br>
+            <a   (click)="too()" mat-list-item role="listitem"><mat-icon>dns</mat-icon> details</a><br>
+            <a  (click)="tag()" mat-list-item role="listitem"><mat-icon>feedback</mat-icon> feedback</a><br>
+          </mat-list>
+    </mat-drawer>
+    <mat-drawer-content class="c">
+    <app-attend *ngIf="showMe"></app-attend>
+        <app-detail *ngIf="click"></app-detail>
+        <app-feedback *ngIf="me"></app-feedback>
+    </mat-drawer-content>
+ </mat-drawer-container>
